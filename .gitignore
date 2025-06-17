@@ -1,0 +1,27 @@
+# Node & React
+frontend/node_modules
+frontend/build
+frontend/.pnp
+frontend/pnpm-lock.yaml
+frontend/yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IntelliJ / VSCode / IDEs
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# Environment files
+.env
+*.env
