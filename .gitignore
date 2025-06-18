@@ -21,7 +21,8 @@ target/
 *.jar
 *.war
 *.log
-.properties
+
+backend/src/main/resources/application.properties
 # Environment files
 .env
 *.env
