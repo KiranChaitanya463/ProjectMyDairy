@@ -21,7 +21,7 @@ target/
 *.jar
 *.war
 *.log
-
+.properties
 # Environment files
 .env
 *.env
