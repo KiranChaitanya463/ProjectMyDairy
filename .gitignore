@@ -22,7 +22,7 @@ target/
 *.war
 *.log
 
-backend/src/main/resources/application.properties
+
 # Environment files
 .env
 *.env

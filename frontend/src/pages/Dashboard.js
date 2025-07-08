@@ -18,7 +18,7 @@ function Dashboard() {
 
   useEffect(() => {
     if (!username) {
-      navigate("/login");
+      navigate("/");
       return;
     }
 
