@@ -7,11 +7,12 @@ body {
 /* Top Bar */
 .dashboard-header {
   padding: 15px 25px;
-  background-color: #ffffff;
+  background: linear-gradient(to bottom, #83f1f9, #8df2ba);
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: none;
 }
 
 .dashboard-header h2 {
@@ -41,10 +42,11 @@ body {
 /* Sidebar */
 .dashboard-sidebar {
   width: 25%;
-  background-color: #f1f3f5;
+  background: linear-gradient(to bottom, #89f7fe, #7eeeb0);
   padding: 20px;
-  border-right: 1px solid #ccc;
+  border-right: none;
   overflow-y: auto;
+  color: #333;
 }
 
 .dashboard-sidebar h3 {
@@ -85,9 +87,14 @@ body {
 .dashboard-main {
   flex: 1;
   padding: 30px;
-  background-color: white;
+  background-image: url("../assets/page.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
   overflow-y: auto;
 }
+
 
 .dashboard-main h3 {
   margin-top: 0;

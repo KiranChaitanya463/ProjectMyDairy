@@ -1,10 +1,11 @@
 .register-container {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #f0f2f5;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
 }
+
 
 .register-card {
   background-color: white;

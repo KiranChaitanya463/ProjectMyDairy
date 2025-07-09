@@ -8,8 +8,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
 }
+
 
 .login-card {
   background-color: white;
