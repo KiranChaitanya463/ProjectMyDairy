@@ -33,7 +33,9 @@ public class DairyController {
             DairyEntries updated = dairyEntriesService.updateEntry(updatedEntry);
             return ResponseEntity.ok(updated);
         } catch (RuntimeException ex) {
+
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());
+            
         }
     }
 
