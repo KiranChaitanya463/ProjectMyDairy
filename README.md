@@ -10,6 +10,9 @@ RESTful APIs built with Spring Boot
 Data persistence with MySQL  
 React frontend for interactive UI  
 
+## 📸 Demo
+
+![MyDiary Screenshot](frontend/src/assets/demo.png)
 
 ---
 
